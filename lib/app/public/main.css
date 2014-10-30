@@ -1,0 +1,64 @@
+body {
+  background-color: #fffef9;
+}
+
+.container {
+  min-width: 200px;
+  width: 30%;
+  background-color: #e0f5f1;
+  margin: 0 auto;
+  padding: 3px 50px;
+  font-family: Helvetica, sans-serif;
+  position: relative;
+}
+
+/*.idea_submit_form {
+  display: block;
+  position: absolute;
+}
+
+.idea_submit_form input[type="submit"] {
+  float: right;
+}*/
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+}
+
+input[type="text"], textarea {
+  border: 2px solid #7cd1cd;
+  border-radius: 8px;
+  margin: 2px 0;
+  padding: 4px 8px;
+  min-width: 200px;
+}
+
+input[type="submit"], a {
+  background-color: #5ac5c1;
+  border: 0;
+  padding: 5px 8px;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 300;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.controls form {
+  display: inline-block;
+}
+
+input[type=submit]:hover, a:hover {
+  color: green;
+}

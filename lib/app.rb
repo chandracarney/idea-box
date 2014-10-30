@@ -24,6 +24,13 @@ class IdeaBoxApp < Sinatra::Base
     redirect '/'
   end
 
+  post '/:id/sort' do |id|
+    idea = IdeaStore.find(id.to_i)
+    idea.sort!
+    IdeaStore.update(tags, idea.to_h)
+    redirect '/'
+  end
+
   delete '/:id' do |id|
     IdeaStore.delete(id.to_i)
     redirect '/'

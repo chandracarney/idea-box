@@ -1,7 +1,12 @@
 ---
 ideas:
-- title: get some coffee
-  description: walk next door
-  rank: 4
 - title: go home
   description: bike for a while, uphill. both ways
+  rank: 8
+  tags: pedal
+- title: create extensions
+  description: work harder
+  rank: 8
+- title: disappear
+  description: forever
+  tags: going, gone

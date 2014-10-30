@@ -6,20 +6,25 @@ body {
   min-width: 200px;
   width: 30%;
   background-color: #e0f5f1;
-  margin: 0 auto;
+  margin: 20 auto;
   padding: 3px 50px;
   font-family: Helvetica, sans-serif;
   position: relative;
 }
 
-/*.idea_submit_form {
-  display: block;
-  position: absolute;
+.text_fields {
+  display: inline-block;
+  position: relative;
 }
 
 .idea_submit_form input[type="submit"] {
   float: right;
-}*/
+}
+
+.existing_ideas {
+  display: inline-block;
+  position: relative;
+}
 
 h1 {
   font-family: 'Fredoka One', cursive;
@@ -29,13 +34,14 @@ h1 {
 h3 {
   font-family: 'Fredoka One', cursive;
   text-align: center;
+  padding: 30px 0px 0px;
 }
 
 input[type="text"], textarea {
   border: 2px solid #7cd1cd;
   border-radius: 8px;
   margin: 2px 0;
-  padding: 4px 8px;
+  padding: 4px 5px;
   min-width: 200px;
 }
 
